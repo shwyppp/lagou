@@ -69,14 +69,14 @@
 	      <div class="row">
 	        <div class="col-sm-3 col-md-2 sidebar">
 	          <ul class="nav nav-sidebar">
-	            <li class="active"><a href="#">正在热映</a></li>
-	            <li><a href="#">即将上映</a></li>
-	            <li><a href="#">Top205</a></li>
+	            <li class="active"><a href="#/in_theathers">正在热映</a></li>
+	            <li><a href="#/coming_soon">即将上映</a></li>
+	            <li><a href="#/top250">Top205</a></li>
 	          </ul>
 	        </div>
 	        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-	          <h3 class="page-header">正在上映的电影-</h3>
-
+	          	<h3 class="page-header">正在上映的电影-</h3>
+				<div ng-view></div>
 	        </div>
 	      </div>
 	    </div>
@@ -110,6 +110,8 @@
 	<!-- build:mainapp js/mainapp.js -->
 
 	<script type="text/javascript" src="views/in_theathers/controller.js"></script>
+	<script type="text/javascript" src="views/coming_soon/controller.js"></script>
+	<script type="text/javascript" src="views/top250/controller.js"></script>
 	<!-- endbuild -->
 
 	<!-- templates from $templateCache -->
