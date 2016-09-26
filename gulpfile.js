@@ -41,7 +41,7 @@ gulp.task('images', function() {
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-      baseDir: "./_build/"
+      baseDir: "./"
     }
   });
 });
