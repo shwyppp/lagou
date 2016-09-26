@@ -119,7 +119,7 @@ gulp.task('concat', function() {
 // SASS task, will run when any SCSS files change & BrowserSync
 // will auto-update browsers
 gulp.task('sass', function() {
-  return gulp.src('styles/style.scss')
+  return gulp.src('styles/*.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       style: 'expanded'
