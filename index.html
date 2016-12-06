@@ -2,121 +2,133 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-csp="" ng-app="renren"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-csp="" ng-app="renren" ng-controller="mainController">
+<!--<![endif]-->
 
-	<head>
-
-		<base href="/">
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>人人电影 </title>
-		<meta name="description" content="Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks">
-
-		<!-- mobile meta -->
-		<meta name="HandheldFriendly" content="True">
-		<meta name="MobileOptimized" content="320">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-
-		<!--[if IE]>
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>拉勾网</title>
+    <meta name="description" content="Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks">
+    <!-- mobile meta -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!--[if IE]>
 			<link rel="shortcut icon" href="favicon.ico">
 		<![endif]-->
-		<!-- or, set /favicon.ico for IE10 win -->
-		<meta name="msapplication-TileColor" content="#f01d4f">
+    <!-- or, set /favicon.ico for IE10 win -->
+    <meta name="msapplication-TileColor" content="#f01d4f">
+    <!-- CSS -->
+    <!-- build:css css/style.min.css -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/external.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <!-- endbuild -->
+</head>
 
-		<!-- CSS -->
-		<!-- build:css css/style.min.css -->
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="styles/dashboard.css">
-		<link rel="stylesheet" type="text/css" href="styles/style.css" />
-		<!-- endbuild -->
+<body class="main-wrapper">
+    <div id="body">
+        <div id="header">
+            <div class="wrapper">
+                <a href="index.html" class="logo">
+                    <img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
+                </a>
+                <ul class="reset" id="navheader">
+                    <li ng-class="{current:li_show[0]}" ng-click="li_click(0)"><a href="#/in_theathers">首页</a></li>
+                    <li ng-class="{current:li_show[1]}" ng-click="li_click(1)"><a href="#/coming_soon">公司</a></li>
+                    <li ng-class="{current:li_show[2]}" ng-click="li_click(2)"><a href="#">论坛</a></li>
+                    <li ng-class="{current:li_show[3]}" ng-click="li_click(3)"><a href="#/jianli">我的简历</a></li>
+                    <li ng-class="{current:li_show[4]}" ng-click="li_click(4)"><a href="#" rel="nofollow">发布职位</a></li>
+                </ul>
+                <ul class="loginTop">
+                    <li><a href="javascript:void(0)" rel="nofollow" ng-click="login_click()">登录</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:void(0)" rel="nofollow" ng-click="login_click()">注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end #header -->
+        <div ng-view></div>
+        <div class="clear"></div>
+        <div id="footer" style="margin-top:50px;">
+            <div class="wrapper">
+                <a href="h/about.html" target="_blank" rel="nofollow">联系我们</a>
+                <a href="h/af/zhaopin.html" target="_blank">互联网公司导航</a>
+                <a href="http://e.weibo.com/lagou720" target="_blank" rel="nofollow">拉勾微博</a>
+                <a class="footer_qr" href="javascript:void(0)" rel="nofollow">拉勾微信<i></i></a>
+                <div class="copyright">&copy;2013-2014 Lagou <a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备14023790号-2</a></div>
+            </div>
+        </div>
 
-	</head>
+    </div>
+    <div id="login_bg" style="{{login_show}}" ng-click="login_hidden()">
+        <div class="login_wrapper" ng-click="login_clear()">
+        <div class="login_header">
+            <a href="h/"><img src="style/images/logo_white.png" width="285" height="62" alt="拉勾招聘" /></a>
+            <div id="cloud_s"><img src="style/images/cloud_s.png" width="81" height="52" alt="cloud" /></div>
+            <div id="cloud_m"><img src="style/images/cloud_m.png" width="136" height="95"  alt="cloud" /></div>
+        </div>
+        <input type="hidden" id="resubmitToken" value="" />     
+        <div class="login_box">
+            <form id="loginForm" action="index.html">
+                <input type="text" id="email" name="email" value="" tabindex="1" placeholder="请输入登录邮箱地址" />
+                <input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
+                <span class="error" style="display:none;" id="beError"></span>
+                <label class="fl" for="remember"><input type="checkbox" id="remember" value="" checked="checked" name="autoLogin" /> 记住我</label>
+                <a href="reset.html" class="fr" target="_blank">忘记密码？</a>
+                
+                <!--<input type="submit" id="submitLogin" value="登 &nbsp; &nbsp; 录" />-->
+                <a style="color:#fff;" href="index.html" class="submitLogin" title="登 &nbsp; &nbsp; 录"/>登 &nbsp; &nbsp; 录</a>
 
-	<body class="main-wrapper">
-	
-		<!--[if lt IE 8]>
-		    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-
-		<!-- Navigation -->
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	      <div class="container-fluid">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	          <a class="navbar-brand" href="#">豆瓣电影乐园</a>
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav navbar-right">
-	            <li><a href="#">Dashboard</a></li>
-	            <li><a href="#">Settings</a></li>
-	            <li><a href="#">Profile</a></li>
-	            <li><a href="#">Help</a></li>
-	          </ul>
-	          <form class="navbar-form navbar-right">
-	            <input type="text" class="form-control" placeholder="Search...">
-	          </form>
-	        </div>
-	      </div>
-	    </nav>
-
-	    <div class="container-fluid">
-	      <div class="row">
-	        <div class="col-sm-3 col-md-2 sidebar">
-	          <ul class="nav nav-sidebar">
-	            <li class="active"><a href="#/in_theathers">正在热映</a></li>
-	            <li><a href="#/coming_soon">即将上映</a></li>
-	            <li><a href="#/top250">Top205</a></li>
-	          </ul>
-	        </div>
-	        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-				<div ng-view></div>
-	        </div>
-	      </div>
-	    </div>
-
-	</body>
-
-	<!-- Vendors -->
-	<!-- build:nonangularlibs js/nonangularlibs.js -->
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-	<!-- endbuild -->
-
-	<!-- Non-angular libraries -->
-	<!-- build:libs js/libs.js -->
-
-	<!-- endbuild -->
-
-	<!-- Angular external libraries for application -->
-	<!-- build:angularlibs js/angularlibs.js -->
-	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
-	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
-	<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-	<!-- endbuild -->
-
-	<!-- Angular components -->
-	<!-- build:appcomponents js/appcomponents.js -->
-	<script type="text/javascript" src="app/app.js"></script>
-	<script type="text/javascript" src="app/config.js"></script>
-	<!-- endbuild -->
-
-	<!-- Application sections -->
-	<!-- build:mainapp js/mainapp.js -->
-
-	<script type="text/javascript" src="views/in_theathers/controller.js"></script>
-	<script type="text/javascript" src="views/coming_soon/controller.js"></script>
-	<script type="text/javascript" src="views/top250/controller.js"></script>
-	<!-- endbuild -->
-
-	<!-- templates from $templateCache -->
-	<!-- build:templates -->
-	<!-- endbuild -->
-	
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+                
+                <input type="hidden" id="callback" name="callback" value=""/>
+                <input type="hidden" id="authType" name="authType" value=""/>
+                <input type="hidden" id="signature" name="signature" value=""/>
+                <input type="hidden" id="timestamp" name="timestamp" value=""/>
+            </form>
+            <div class="login_right">
+                <div>还没有拉勾帐号？</div>
+                <a  href="register.html"  class="registor_now">立即注册</a>
+                <div class="login_others">使用以下帐号直接登录:</div>
+                <a  href="h/ologin/auth/sina.html"  target="_blank" class="icon_wb" title="使用新浪微博帐号登录"></a>
+                <a  href="h/ologin/auth/qq.html"  class="icon_qq" target="_blank" title="使用腾讯QQ帐号登录"></a>
+            </div>
+        </div>
+        <div class="login_box_btm"></div>
+    </div>
+</body>
+<!-- Vendors -->
+<!-- build:nonangularlibs js/nonangularlibs.js -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- endbuild -->
+<!-- Non-angular libraries -->
+<!-- build:libs js/libs.js -->
+<!-- endbuild -->
+<!-- Angular external libraries for application -->
+<!-- build:angularlibs js/angularlibs.js -->
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<!-- endbuild -->
+<!-- Angular components -->
+<!-- build:appcomponents js/appcomponents.js -->
+<script type="text/javascript" src="app/app.js"></script>
+<script type="text/javascript" src="app/config.js"></script>
+<!-- endbuild -->
+<!-- Application sections -->
+<!-- build:mainapp js/mainapp.js -->
+<script type="text/javascript" src="views/in_theathers/controller.js"></script>
+<script type="text/javascript" src="views/coming_soon/controller.js"></script>
+<script type="text/javascript" src="views/top250/controller.js"></script>
+<script type="text/javascript" src="views/jianli/controller.js"></script>
+<!-- endbuild -->
+<!-- templates from $templateCache -->
+<!-- build:templates -->
+<!-- endbuild -->
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
 </html>

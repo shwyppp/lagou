@@ -1,0 +1,889 @@
+	[
+	    {
+	    	"title": "技术",
+	    	"show":"true",
+	    	"top":"0",
+	    	"teles": [{
+	    		"href":"http://www.baidu.com",
+	    		"name":"Java"
+	    	},
+	    	{
+	    		"href":"http://www.baidu.com",
+	    		"name":"PHP"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"C"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"C++"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"Android"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"iOS"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"前端开发"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"测试"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"技术经理"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"项目经理"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"架构师"
+	    	}],
+	    	"info":[{
+	    		"title": "后端开发",
+	    		"list": [{
+	    			"link": "JavaScript:viod(0)",
+					"color": true,
+	    			"info":"Java"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"C++"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"PHP"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": true,
+	    			"info":"数据挖掘"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": true,
+	    			"info":"C"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": true,
+	    			"info":"C#"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": true,
+	    			"info":".NET"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": true,
+	    			"info":"Hadoop"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"Python"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"VB"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"Delphi"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"Perl"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"Ruby"
+	    		},{
+	    			"link": "JavaScript:viod(0)",
+					"color": false,
+	    			"info":"Node.js"
+	    		}]
+			},{
+				"title": "前端开发",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "web前端"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "Flash"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "html5"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "JavaScript"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "U3D"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "COCOS2D-X"
+				}]
+			},
+			{
+				"title": "测试",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "测试工程师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "自动化测试"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "功能测试"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "性能测试"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "测试开发"
+				}]
+			},
+			{
+				"title": "运维",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "运维工程师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "运维开发工程师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "网络工程师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "系统工程师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "IT支持"
+				}]
+			},
+			{
+				"title": "DBA",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "MySQL"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "SQLServer"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "Oracle"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "DB2"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "MongoDB"
+				}]
+			},
+			{
+				"title": "项目管理",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "项目经理"
+				}]
+			},
+			{
+				"title": "高端职位",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "技术经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "技术总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "测试经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "架构师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "CTO"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "运维总监"
+				}]
+			}
+		]},{
+	    	"title": "产品",
+	    	"top":"120px",
+	    	"show":"true",
+	    	"teles": [{
+	    		"href":"http://www.baidu.com",
+	    		"name":"产品经理"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"产品助理"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"无线产品经理"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"游戏策划"
+	    	}],
+	    	"info": [{
+				"title": "产品经理",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "产品经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "网页产品经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "移动产品经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "产品助理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "数据产品经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "电商产品经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "游戏策划"
+				}]
+			},
+			{
+				"title": "产品设计师",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "网页产品设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "无线产品设计师"
+				}]
+			},
+			{
+				"title": "高端职位",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "产品部经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "产品总监"
+				}]
+			}]
+	    },{
+	    	"title": "设计",
+	    	"show":"true",
+	    	"top":"166px",
+	    	"teles": [{
+	    		"href":"http://www.baidu.com",
+	    		"name":"UI"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"UE"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"设计师"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"交互设计"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"数据分析"
+	    	}],
+	    	"info": [{
+				"title": "视觉设计",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "视觉设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "网页设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "Flash设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "APP设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "UI设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "平面设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "美术设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "（2D/3D）"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "广告设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "美术设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "多媒体设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "原画师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "游戏特效"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "游戏界面设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "游戏角色"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "游戏动作"
+				}]
+			},
+			{
+				"title": "交互设计",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "交互设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "无线交互设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "网页交互设计师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "硬件交互设计师"
+				}]
+			},
+			{
+				"title": "用户研究",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "数据分析师"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "用户研究员"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "游戏数值策划"
+				}]
+			},
+			{
+				"title": "高端职位",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "设计经理/主管"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "设计总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "视觉设计经理/主管"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "视觉设计总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "交互设计经理/主管"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "交互设计总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "用户研究经理/主管"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "用户研究总监"
+				}]
+			}]
+	    },{
+	    	"title": "运营",
+	    	"show":"true",
+	    	"top":"319px",
+	    	"teles": [{
+	    		"href":"http://www.baidu.com",
+	    		"name":"运营"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"游戏运营"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"编辑"
+	    	}],
+	    	"info": [{
+				"title": "运营",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "用户运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "产品运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "数据运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "内容运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "活动运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "商家运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "品类运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "游戏运营"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "网络推广"
+				}]
+			},
+			{
+				"title": "编辑",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "副主编"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "内容编辑"
+				}]
+			},
+			{
+				"title": "客服",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "售前咨询"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "售后客服"
+				}]
+			},
+			{
+				"title": "高端职位",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "主编"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "运营总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "COO"
+				}]
+			}]
+	    },{
+	    	"title": "市场与销售",
+	    	"show":"true",
+	    	"top":"428px",
+	    	"teles": [{
+	    		"href":"http://www.baidu.com",
+	    		"name":"市场推广"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"市场策划"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"活动策划"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"BD"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"销售经理"
+	    	}],
+	    	"info": [{
+				"title": "市场/营销",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "市场营销"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "市场策划"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "市场顾问"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "SEO"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "SEM"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "商务渠道"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "商业数据分析"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "活动策划"
+				}]
+			},
+			{
+				"title": "公关",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "媒介经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "广告协调"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "品牌公关"
+				}]
+			},
+			{
+				"title": "销售",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "销售专员"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "客户代表"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "大客户代表"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "BD经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "商务渠道"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "渠道销售"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "代理商销售"
+				}]
+			},
+			{
+				"title": "高端职位",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "市场总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "销售总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "商务总监"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "CMO"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "公关总监"
+				}]
+			}]
+	    },{
+	    	"title": "职能",
+	    	"show":"true",
+	    	"top":"428px",
+	    	"teles": [{
+	    		"href":"http://www.baidu.com",
+	    		"name":"HR"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"行政"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"会计"
+	    	},{
+	    		"href":"http://www.baidu.com",
+	    		"name":"出纳"
+	    	}],
+	    	"info": [{
+				"title": "人力资源",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "人力资源"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "招聘"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "HRBP"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "人事/HR"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "薪资福利经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "绩效考核经理"
+				}]
+			},
+			{
+				"title": "行政",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "助理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "前台"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "法务"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "行政"
+				}]
+			},
+			{
+				"title": "财务",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "会计"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "出纳"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": true,
+					"info": "财务"
+				}]
+			},
+			{
+				"title": "高端职位",
+				"list": [{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "行政总监/经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "财务总监/经理"
+				},
+				{
+					"link": "JavaScript:viod(0)",
+					"color": false,
+					"info": "CFO"
+				}]
+			}]
+	    }
+	]
